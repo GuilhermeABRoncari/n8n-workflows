@@ -1,18 +1,66 @@
 {
-  "_links": {
-    "self": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/Nsus1EInuHr6r0rJ.json?ref=main",
-    "git": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/8268938ded1f4a1bd8cf16033e187d3870bca4e9",
-    "html": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/Nsus1EInuHr6r0rJ.json"
+  "active": true,
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
   },
-  "content": "ewogICJfbGlua3MiOiB7CiAgICAic2VsZiI6ICJodHRwczovL2FwaS5naXRo\ndWIuY29tL3JlcG9zL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dz\nL2NvbnRlbnRzL3dvcmtmbG93cy9Oc3VzMUVJbnVIcjZyMHJKLmpzb24/cmVm\nPW1haW4iLAogICAgImdpdCI6ICJodHRwczovL2FwaS5naXRodWIuY29tL3Jl\ncG9zL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dzL2dpdC9ibG9i\ncy9lNDY1MGEwNzczZTVhMGJjMjFmZTc4YzlmNzVkZDU0OGQ3YjEyMjFhIiwK\nICAgICJodG1sIjogImh0dHBzOi8vZ2l0aHViLmNvbS9HdWlsaGVybWVBQlJv\nbmNhcmkvbjhuLXdvcmtmbG93cy9ibG9iL21haW4vd29ya2Zsb3dzL05zdXMx\nRUludUhyNnIwckouanNvbiIKICB9LAogICJjb250ZW50IjogImV3b2dJQ0po\nWTNScGRtVWlPaUIwY25WbExBb2dJQ0pqYjI1dVpXTjBhVzl1Y3lJNklIc0tJ\nQ0FnSUNKWFxuYUdWdUlHTnNhV05yYVc1bklPS0FtRlJsYzNRZ2QyOXlhMlpz\nYjNmaWdKa2lPaUI3Q2lBZ0lDQWdJQ0p0XG5ZV2x1SWpvZ1d3b2dJQ0FnSUNB\nZ0lGc0tJQ0FnSUNBZ0lDQWdJSHNLSUNBZ0lDQWdJQ0FnSUNBZ0ltNXZcblpH\nVWlPaUFpVkdWc1pXZHlZVzBpTEFvZ0lDQWdJQ0FnSUNBZ0lDQWlkSGx3WlNJ\nNklDSnRZV2x1SWl3S1xuSUNBZ0lDQWdJQ0FnSUNBZ0ltbHVaR1Y0SWpvZ01B\nb2dJQ0FnSUNBZ0lDQWdmUW9nSUNBZ0lDQWdJRjBLXG5JQ0FnSUNBZ1hRb2dJ\nQ0FnZlFvZ0lIMHNDaUFnSW1OeVpXRjBaV1JCZENJNklDSXlNREkxTFRBekxU\nTXhcblZERTFPalUzT2pBMUxqSXdNMW9pTEFvZ0lDSnBaQ0k2SUNKT2MzVnpN\nVVZKYm5WSWNqWnlNSEpLSWl3S1xuSUNBaWJXVjBZU0k2SUhzS0lDQWdJQ0ow\nWlcxd2JHRjBaVU55WldSelUyVjBkWEJEYjIxd2JHVjBaV1FpXG5PaUIwY25W\nbENpQWdmU3dLSUNBaWJtRnRaU0k2SUNKVVJWTlVSU0lzQ2lBZ0ltNXZaR1Z6\nSWpvZ1d3b2dcbklDQWdld29nSUNBZ0lDQWljR0Z5WVcxbGRHVnljeUk2SUh0\nOUxBb2dJQ0FnSUNBaWRIbHdaU0k2SUNKdVxuT0c0dGJtOWtaWE10WW1GelpT\nNXRZVzUxWVd4VWNtbG5aMlZ5SWl3S0lDQWdJQ0FnSW5SNWNHVldaWEp6XG5h\nVzl1SWpvZ01Td0tJQ0FnSUNBZ0luQnZjMmwwYVc5dUlqb2dXd29nSUNBZ0lD\nQWdJREFzQ2lBZ0lDQWdcbklDQWdNQW9nSUNBZ0lDQmRMQW9nSUNBZ0lDQWlh\nV1FpT2lBaU5tTTJabVl6TXpZdFpqVmpPQzAwTkRKaVxuTFRsa05UVXRNRGxq\nT0RnMk5UWmpabUZsSWl3S0lDQWdJQ0FnSW01aGJXVWlPaUFpVjJobGJpQmpi\nR2xqXG5hMmx1WnlEaWdKaFVaWE4wSUhkdmNtdG1iRzkzNG9DWklnb2dJQ0Fn\nZlN3S0lDQWdJSHNLSUNBZ0lDQWdcbkluQmhjbUZ0WlhSbGNuTWlPaUI3Q2lB\nZ0lDQWdJQ0FnSW1Ob1lYUkpaQ0k2SUNJdE1UQXdNak15T0RrMFxuTXpRMU1p\nSXNDaUFnSUNBZ0lDQWdJblJsZUhRaU9pQWlWRVZUSUZSRlUxUkZJaXdLSUNB\nZ0lDQWdJQ0FpXG5ZV1JrYVhScGIyNWhiRVpwWld4a2N5STZJSHQ5Q2lBZ0lD\nQWdJSDBzQ2lBZ0lDQWdJQ0owZVhCbElqb2dcbkltNDRiaTF1YjJSbGN5MWlZ\nWE5sTG5SbGJHVm5jbUZ0SWl3S0lDQWdJQ0FnSW5SNWNHVldaWEp6YVc5dVxu\nSWpvZ01TNHlMQW9nSUNBZ0lDQWljRzl6YVhScGIyNGlPaUJiQ2lBZ0lDQWdJ\nQ0FnTWpJd0xBb2dJQ0FnXG5JQ0FnSURBS0lDQWdJQ0FnWFN3S0lDQWdJQ0Fn\nSW1sa0lqb2dJamt6WVRrNU5HTm1MVEEyTXpjdE5EbG1cbk1TMDVORGMxTFRr\nelpUZzVaVGRtT1RJNVpTSXNDaUFnSUNBZ0lDSnVZVzFsSWpvZ0lsUmxiR1Zu\nY21GdFxuSWl3S0lDQWdJQ0FnSW5kbFltaHZiMnRKWkNJNklDSXlZekE0WW1G\nbFppMHpabVZrTFRSbE9XUXRZakptXG5NUzA0T0RjMFlXUXhNemN4TVdFaUxB\nb2dJQ0FnSUNBaVkzSmxaR1Z1ZEdsaGJITWlPaUI3Q2lBZ0lDQWdcbklDQWdJ\nblJsYkdWbmNtRnRRWEJwSWpvZ2V3b2dJQ0FnSUNBZ0lDQWdJbWxrSWpvZ0lq\nWlRVVFp3ZVc5MVxuTUVscFprcGtTekFpTEFvZ0lDQWdJQ0FnSUNBZ0ltNWhi\nV1VpT2lBaWJqaHVMV0p2ZENJS0lDQWdJQ0FnXG5JQ0I5Q2lBZ0lDQWdJSDBL\nSUNBZ0lIMEtJQ0JkTEFvZ0lDSndhVzVFWVhSaElqb2dlMzBzQ2lBZ0luTmxc\nbmRIUnBibWR6SWpvZ2V3b2dJQ0FnSW1WNFpXTjFkR2x2Yms5eVpHVnlJam9n\nSW5ZeElnb2dJSDBzQ2lBZ1xuSW5OMFlYUnBZMFJoZEdFaU9pQnVkV3hzTEFv\nZ0lDSjBZV2R6SWpvZ1cxMHNDaUFnSW5SeWFXZG5aWEpEXG5iM1Z1ZENJNklE\nQXNDaUFnSW5Wd1pHRjBaV1JCZENJNklDSXlNREkxTFRBekxUTXhWREUyT2pJ\neU9qUXlcbkxqSXpOVm9pTEFvZ0lDSjJaWEp6YVc5dVNXUWlPaUFpTm1JeE9X\nTXhNRE10TWpOak5pMDBNakUzTFdGbVxuTkRndFlUZGlNekE0TXpZNVptRXpJ\nZ3A5XG4iLAogICJkb3dubG9hZF91cmwiOiAiaHR0cHM6Ly9yYXcuZ2l0aHVi\ndXNlcmNvbnRlbnQuY29tL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zs\nb3dzL21haW4vd29ya2Zsb3dzL05zdXMxRUludUhyNnIwckouanNvbiIsCiAg\nImVuY29kaW5nIjogImJhc2U2NCIsCiAgImdpdF91cmwiOiAiaHR0cHM6Ly9h\ncGkuZ2l0aHViLmNvbS9yZXBvcy9HdWlsaGVybWVBQlJvbmNhcmkvbjhuLXdv\ncmtmbG93cy9naXQvYmxvYnMvZTQ2NTBhMDc3M2U1YTBiYzIxZmU3OGM5Zjc1\nZGQ1NDhkN2IxMjIxYSIsCiAgImh0bWxfdXJsIjogImh0dHBzOi8vZ2l0aHVi\nLmNvbS9HdWlsaGVybWVBQlJvbmNhcmkvbjhuLXdvcmtmbG93cy9ibG9iL21h\naW4vd29ya2Zsb3dzL05zdXMxRUludUhyNnIwckouanNvbiIsCiAgIm5hbWUi\nOiAiTnN1czFFSW51SHI2cjBySi5qc29uIiwKICAicGF0aCI6ICJ3b3JrZmxv\nd3MvTnN1czFFSW51SHI2cjBySi5qc29uIiwKICAic2hhIjogImU0NjUwYTA3\nNzNlNWEwYmMyMWZlNzhjOWY3NWRkNTQ4ZDdiMTIyMWEiLAogICJzaXplIjog\nMTQxMywKICAidHlwZSI6ICJmaWxlIiwKICAidXJsIjogImh0dHBzOi8vYXBp\nLmdpdGh1Yi5jb20vcmVwb3MvR3VpbGhlcm1lQUJSb25jYXJpL244bi13b3Jr\nZmxvd3MvY29udGVudHMvd29ya2Zsb3dzL05zdXMxRUludUhyNnIwckouanNv\nbj9yZWY9bWFpbiIKfQ==\n",
-  "download_url": "https://raw.githubusercontent.com/GuilhermeABRoncari/n8n-workflows/main/workflows/Nsus1EInuHr6r0rJ.json",
-  "encoding": "base64",
-  "git_url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/8268938ded1f4a1bd8cf16033e187d3870bca4e9",
-  "html_url": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/Nsus1EInuHr6r0rJ.json",
-  "name": "Nsus1EInuHr6r0rJ.json",
-  "path": "workflows/Nsus1EInuHr6r0rJ.json",
-  "sha": "8268938ded1f4a1bd8cf16033e187d3870bca4e9",
-  "size": 3028,
-  "type": "file",
-  "url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/Nsus1EInuHr6r0rJ.json?ref=main"
+  "createdAt": "2025-03-31T15:57:05.203Z",
+  "id": "Nsus1EInuHr6r0rJ",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "TESTE",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6c6ff336-f5c8-442b-9d55-09c88656cfae",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "chatId": "-1002328943452",
+        "text": "TES TESTE",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        220,
+        0
+      ],
+      "id": "93a994cf-0637-49f1-9475-93e89e7f929e",
+      "name": "Telegram",
+      "webhookId": "2c08baef-3fed-4e9d-b2f1-8874ad13711a",
+      "credentials": {
+        "telegramApi": {
+          "id": "6SQ6pyou0IifJdK0",
+          "name": "n8n-bot"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-03-31T16:22:42.235Z",
+  "versionId": "6b19c103-23c6-4217-af48-a7b308369fa3"
 }
