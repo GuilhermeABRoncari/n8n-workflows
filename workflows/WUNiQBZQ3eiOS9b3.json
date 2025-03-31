@@ -1,18 +1,65 @@
 {
-  "_links": {
-    "self": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/WUNiQBZQ3eiOS9b3.json?ref=main",
-    "git": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/5b7a1a2589f2328d3adb3cf0adda446fdc119d81",
-    "html": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/WUNiQBZQ3eiOS9b3.json"
+  "active": false,
+  "connections": {
+    "main": [
+      {
+        "node": "Jira",
+        "type": "main",
+        "index": 0
+      }
+    ]
   },
-  "content": "ewogICJfbGlua3MiOiB7CiAgICAic2VsZiI6ICJodHRwczovL2FwaS5naXRo\ndWIuY29tL3JlcG9zL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dz\nL2NvbnRlbnRzL3dvcmtmbG93cy9XVU5pUUJaUTNlaU9TOWIzLmpzb24/cmVm\nPW1haW4iLAogICAgImdpdCI6ICJodHRwczovL2FwaS5naXRodWIuY29tL3Jl\ncG9zL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dzL2dpdC9ibG9i\ncy85ZTI2ZGZlZWI2ZTY0MWEzM2RhZTQ5NjExOTYyMzViZGI5NjViMjFiIiwK\nICAgICJodG1sIjogImh0dHBzOi8vZ2l0aHViLmNvbS9HdWlsaGVybWVBQlJv\nbmNhcmkvbjhuLXdvcmtmbG93cy9ibG9iL21haW4vd29ya2Zsb3dzL1dVTmlR\nQlpRM2VpT1M5YjMuanNvbiIKICB9LAogICJjb250ZW50IjogImUzMD1cbiIs\nCiAgImRvd25sb2FkX3VybCI6ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29u\ndGVudC5jb20vR3VpbGhlcm1lQUJSb25jYXJpL244bi13b3JrZmxvd3MvbWFp\nbi93b3JrZmxvd3MvV1VOaVFCWlEzZWlPUzliMy5qc29uIiwKICAiZW5jb2Rp\nbmciOiAiYmFzZTY0IiwKICAiZ2l0X3VybCI6ICJodHRwczovL2FwaS5naXRo\ndWIuY29tL3JlcG9zL0d1aWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dz\nL2dpdC9ibG9icy85ZTI2ZGZlZWI2ZTY0MWEzM2RhZTQ5NjExOTYyMzViZGI5\nNjViMjFiIiwKICAiaHRtbF91cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL0d1\naWxoZXJtZUFCUm9uY2FyaS9uOG4td29ya2Zsb3dzL2Jsb2IvbWFpbi93b3Jr\nZmxvd3MvV1VOaVFCWlEzZWlPUzliMy5qc29uIiwKICAibmFtZSI6ICJXVU5p\nUUJaUTNlaU9TOWIzLmpzb24iLAogICJwYXRoIjogIndvcmtmbG93cy9XVU5p\nUUJaUTNlaU9TOWIzLmpzb24iLAogICJzaGEiOiAiOWUyNmRmZWViNmU2NDFh\nMzNkYWU0OTYxMTk2MjM1YmRiOTY1YjIxYiIsCiAgInNpemUiOiAyLAogICJ0\neXBlIjogImZpbGUiLAogICJ1cmwiOiAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNv\nbS9yZXBvcy9HdWlsaGVybWVBQlJvbmNhcmkvbjhuLXdvcmtmbG93cy9jb250\nZW50cy93b3JrZmxvd3MvV1VOaVFCWlEzZWlPUzliMy5qc29uP3JlZj1tYWlu\nIgp9\n",
-  "download_url": "https://raw.githubusercontent.com/GuilhermeABRoncari/n8n-workflows/main/workflows/WUNiQBZQ3eiOS9b3.json",
-  "encoding": "base64",
-  "git_url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/5b7a1a2589f2328d3adb3cf0adda446fdc119d81",
-  "html_url": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/WUNiQBZQ3eiOS9b3.json",
-  "name": "WUNiQBZQ3eiOS9b3.json",
-  "path": "workflows/WUNiQBZQ3eiOS9b3.json",
-  "sha": "5b7a1a2589f2328d3adb3cf0adda446fdc119d81",
-  "size": 1083,
-  "type": "file",
-  "url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/WUNiQBZQ3eiOS9b3.json?ref=main"
+  "createdAt": "2025-03-31T17:50:12.559Z",
+  "id": "WUNiQBZQ3eiOS9b3",
+  "meta": null,
+  "name": "Workflow 1",
+  "nodes": [
+    {
+      "id": "0f5532f9-36ba-4bef-86c7-30d607400b15",
+      "name": "Jira",
+      "webhookId": "string",
+      "disabled": true,
+      "notesInFlow": true,
+      "notes": "string",
+      "type": "n8n-nodes-base.Jira",
+      "typeVersion": 1,
+      "executeOnce": false,
+      "alwaysOutputData": false,
+      "retryOnFail": false,
+      "maxTries": 0,
+      "waitBetweenTries": 0,
+      "onError": "stopWorkflow",
+      "position": [
+        -100,
+        80
+      ],
+      "parameters": {
+        "additionalProperties": {}
+      },
+      "credentials": {
+        "jiraSoftwareCloudApi": {
+          "id": "35",
+          "name": "jiraApi"
+        }
+      }
+    }
+  ],
+  "pinData": null,
+  "settings": {
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionTimeout": 3600,
+    "errorWorkflow": "VzqKEW0ShTXA5vPj",
+    "timezone": "America/New_York",
+    "executionOrder": "v1"
+  },
+  "staticData": {
+    "lastId": 1
+  },
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-03-31T17:50:12.559Z",
+  "versionId": "5b20bfc0-ba9e-4f9d-b51c-5fb039c2c11d"
 }
