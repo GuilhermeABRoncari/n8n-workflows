@@ -1,4 +1,23 @@
 {
+  "active": true,
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-03-31T15:57:05.203Z",
+  "id": "Nsus1EInuHr6r0rJ",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
   "name": "TESTE",
   "nodes": [
     {
@@ -36,28 +55,12 @@
     }
   ],
   "pinData": {},
-  "connections": {
-    "When clicking ‘Test workflow’": {
-      "main": [
-        [
-          {
-            "node": "Telegram",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    }
-  },
-  "active": true,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "6b19c103-23c6-4217-af48-a7b308369fa3",
-  "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "038468518ad8122e13112743f890c7ba96ac5665b71de548eceb23e9ef237805"
-  },
-  "id": "Nsus1EInuHr6r0rJ",
-  "tags": []
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-03-31T16:22:42.235Z",
+  "versionId": "6b19c103-23c6-4217-af48-a7b308369fa3"
 }
