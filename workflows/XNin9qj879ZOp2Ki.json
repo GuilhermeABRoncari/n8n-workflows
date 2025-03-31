@@ -223,6 +223,11 @@
             "node": "Globals",
             "type": "main",
             "index": 0
+          },
+          {
+            "node": "Merge Items",
+            "type": "main",
+            "index": 1
           }
         ]
       ]
@@ -600,7 +605,7 @@
       "type": "n8n-nodes-base.set",
       "position": [
         300,
-        940
+        1080
       ],
       "typeVersion": 3.4,
       "executeOnce": true
@@ -617,7 +622,7 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         280,
-        780
+        940
       ],
       "typeVersion": 1
     },
@@ -663,8 +668,8 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        40,
-        800
+        80,
+        740
       ],
       "id": "68966e39-f8c6-4ba4-ad8a-73d5bf81ec64",
       "name": "Loop Over Items"
@@ -683,6 +688,6 @@
   },
   "tags": [],
   "triggerCount": 1,
-  "updatedAt": "2025-03-31T20:52:27.500Z",
-  "versionId": "c22b062e-3fbb-4044-8a8b-1603ffcaed6d"
+  "updatedAt": "2025-03-31T20:53:54.153Z",
+  "versionId": "5434d2d6-baf0-4e69-a92c-148b581c4e05"
 }
