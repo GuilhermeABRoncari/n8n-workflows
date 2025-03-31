@@ -1,66 +1,18 @@
 {
-  "active": true,
-  "connections": {
-    "When clicking ‘Test workflow’": {
-      "main": [
-        [
-          {
-            "node": "Telegram",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    }
+  "_links": {
+    "self": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/Nsus1EInuHr6r0rJ.json?ref=main",
+    "git": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/e4650a0773e5a0bc21fe78c9f75dd548d7b1221a",
+    "html": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/Nsus1EInuHr6r0rJ.json"
   },
-  "createdAt": "2025-03-31T15:57:05.203Z",
-  "id": "Nsus1EInuHr6r0rJ",
-  "meta": {
-    "templateCredsSetupCompleted": true
-  },
-  "name": "TESTE",
-  "nodes": [
-    {
-      "parameters": {},
-      "type": "n8n-nodes-base.manualTrigger",
-      "typeVersion": 1,
-      "position": [
-        0,
-        0
-      ],
-      "id": "6c6ff336-f5c8-442b-9d55-09c88656cfae",
-      "name": "When clicking ‘Test workflow’"
-    },
-    {
-      "parameters": {
-        "chatId": "-1002328943452",
-        "text": "TES TESTE",
-        "additionalFields": {}
-      },
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 1.2,
-      "position": [
-        220,
-        0
-      ],
-      "id": "93a994cf-0637-49f1-9475-93e89e7f929e",
-      "name": "Telegram",
-      "webhookId": "2c08baef-3fed-4e9d-b2f1-8874ad13711a",
-      "credentials": {
-        "telegramApi": {
-          "id": "6SQ6pyou0IifJdK0",
-          "name": "n8n-bot"
-        }
-      }
-    }
-  ],
-  "pinData": {},
-  "settings": {
-    "executionOrder": "v1"
-  },
-  "staticData": null,
-  "tags": [],
-  "triggerCount": 0,
-  "updatedAt": "2025-03-31T16:22:42.235Z",
-  "versionId": "6b19c103-23c6-4217-af48-a7b308369fa3"
+  "content": "ewogICJhY3RpdmUiOiB0cnVlLAogICJjb25uZWN0aW9ucyI6IHsKICAgICJX\naGVuIGNsaWNraW5nIOKAmFRlc3Qgd29ya2Zsb3figJkiOiB7CiAgICAgICJt\nYWluIjogWwogICAgICAgIFsKICAgICAgICAgIHsKICAgICAgICAgICAgIm5v\nZGUiOiAiVGVsZWdyYW0iLAogICAgICAgICAgICAidHlwZSI6ICJtYWluIiwK\nICAgICAgICAgICAgImluZGV4IjogMAogICAgICAgICAgfQogICAgICAgIF0K\nICAgICAgXQogICAgfQogIH0sCiAgImNyZWF0ZWRBdCI6ICIyMDI1LTAzLTMx\nVDE1OjU3OjA1LjIwM1oiLAogICJpZCI6ICJOc3VzMUVJbnVIcjZyMHJKIiwK\nICAibWV0YSI6IHsKICAgICJ0ZW1wbGF0ZUNyZWRzU2V0dXBDb21wbGV0ZWQi\nOiB0cnVlCiAgfSwKICAibmFtZSI6ICJURVNURSIsCiAgIm5vZGVzIjogWwog\nICAgewogICAgICAicGFyYW1ldGVycyI6IHt9LAogICAgICAidHlwZSI6ICJu\nOG4tbm9kZXMtYmFzZS5tYW51YWxUcmlnZ2VyIiwKICAgICAgInR5cGVWZXJz\naW9uIjogMSwKICAgICAgInBvc2l0aW9uIjogWwogICAgICAgIDAsCiAgICAg\nICAgMAogICAgICBdLAogICAgICAiaWQiOiAiNmM2ZmYzMzYtZjVjOC00NDJi\nLTlkNTUtMDljODg2NTZjZmFlIiwKICAgICAgIm5hbWUiOiAiV2hlbiBjbGlj\na2luZyDigJhUZXN0IHdvcmtmbG934oCZIgogICAgfSwKICAgIHsKICAgICAg\nInBhcmFtZXRlcnMiOiB7CiAgICAgICAgImNoYXRJZCI6ICItMTAwMjMyODk0\nMzQ1MiIsCiAgICAgICAgInRleHQiOiAiVEVTIFRFU1RFIiwKICAgICAgICAi\nYWRkaXRpb25hbEZpZWxkcyI6IHt9CiAgICAgIH0sCiAgICAgICJ0eXBlIjog\nIm44bi1ub2Rlcy1iYXNlLnRlbGVncmFtIiwKICAgICAgInR5cGVWZXJzaW9u\nIjogMS4yLAogICAgICAicG9zaXRpb24iOiBbCiAgICAgICAgMjIwLAogICAg\nICAgIDAKICAgICAgXSwKICAgICAgImlkIjogIjkzYTk5NGNmLTA2MzctNDlm\nMS05NDc1LTkzZTg5ZTdmOTI5ZSIsCiAgICAgICJuYW1lIjogIlRlbGVncmFt\nIiwKICAgICAgIndlYmhvb2tJZCI6ICIyYzA4YmFlZi0zZmVkLTRlOWQtYjJm\nMS04ODc0YWQxMzcxMWEiLAogICAgICAiY3JlZGVudGlhbHMiOiB7CiAgICAg\nICAgInRlbGVncmFtQXBpIjogewogICAgICAgICAgImlkIjogIjZTUTZweW91\nMElpZkpkSzAiLAogICAgICAgICAgIm5hbWUiOiAibjhuLWJvdCIKICAgICAg\nICB9CiAgICAgIH0KICAgIH0KICBdLAogICJwaW5EYXRhIjoge30sCiAgInNl\ndHRpbmdzIjogewogICAgImV4ZWN1dGlvbk9yZGVyIjogInYxIgogIH0sCiAg\nInN0YXRpY0RhdGEiOiBudWxsLAogICJ0YWdzIjogW10sCiAgInRyaWdnZXJD\nb3VudCI6IDAsCiAgInVwZGF0ZWRBdCI6ICIyMDI1LTAzLTMxVDE2OjIyOjQy\nLjIzNVoiLAogICJ2ZXJzaW9uSWQiOiAiNmIxOWMxMDMtMjNjNi00MjE3LWFm\nNDgtYTdiMzA4MzY5ZmEzIgp9\n",
+  "download_url": "https://raw.githubusercontent.com/GuilhermeABRoncari/n8n-workflows/main/workflows/Nsus1EInuHr6r0rJ.json",
+  "encoding": "base64",
+  "git_url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/git/blobs/e4650a0773e5a0bc21fe78c9f75dd548d7b1221a",
+  "html_url": "https://github.com/GuilhermeABRoncari/n8n-workflows/blob/main/workflows/Nsus1EInuHr6r0rJ.json",
+  "name": "Nsus1EInuHr6r0rJ.json",
+  "path": "workflows/Nsus1EInuHr6r0rJ.json",
+  "sha": "e4650a0773e5a0bc21fe78c9f75dd548d7b1221a",
+  "size": 1413,
+  "type": "file",
+  "url": "https://api.github.com/repos/GuilhermeABRoncari/n8n-workflows/contents/workflows/Nsus1EInuHr6r0rJ.json?ref=main"
 }
